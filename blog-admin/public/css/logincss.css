@@ -1,0 +1,24 @@
+.gakki-background {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    background-image: url('/image/gakki4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+}
+
+.gakki-background .input {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.mylogin {
+    top: 50%;
+    transform: translateY(-70%);
+    position: relative;
+}

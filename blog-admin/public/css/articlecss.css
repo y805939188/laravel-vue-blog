@@ -1,0 +1,34 @@
+body {
+    background-image: url('/image/gakki33.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    /*cover把背景图像扩展至足够大，以使背景图像完全覆盖背景区域。背景图像的某些部分也许无法显示在背景定位区域中*/
+    background-position-x: 50%;
+    background-attachment: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+.navbar {
+    margin-bottom: 0;
+}
+.mytitle {
+    text-align: left!important;
+}
+.mytext {
+    margin-bottom: 45px;
+}
+.navbar {
+    margin-bottom: 0;
+}
+.mybtn{
+    margin-right: 10px;
+}
+.myform {
+    margin-bottom: 20px;
+}
