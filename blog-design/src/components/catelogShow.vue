@@ -8,7 +8,7 @@
         <div class="catelogArticle">
           <ul class="list-unstyled">
             <transition-group enter-active-class="animated fadeInLeft">
-              <li v-for="article in catelogArticles" :key="article.title"><router-link to="/catelog"> <span class="time">{{article.created_at | created_time}}</span> <span class="articletitle">{{article.title}}</span> </router-link></li>
+              <li v-for="article in catelogArticles" :key="article.title"><router-link :to="'/article/' + article.id"> <span class="time">{{article.created_at | created_time}}</span> <span class="articletitle">{{article.title}}</span> </router-link></li>
             </transition-group>
           </ul>
         </div>

@@ -61,7 +61,7 @@
               <span class="name">Shin</span>
             </div>
             <div class="item item2">
-              <span class="weChat"><span class="glyphicon glyphicon-envelope"></span> DYB13581982900</span>
+              <span class="weChat"><span class="glyphicon glyphicon-envelope"></span>y805939188@163.com</span>
             </div>
           </div>
         </footer>

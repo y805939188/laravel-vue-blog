@@ -302,12 +302,14 @@ a:focus {
 	display: inline-block;
 	position: relative;
 	padding: 0 5vw;
-	-webkit-transition: opacity 2s, -webkit-transform 2s;
-	transition: opacity 2s, transform 2s;
-	-webkit-transition-timing-function: cubic-bezier(0.2,1,0.3,1);
+	/* -webkit-transition: opacity 2s, -webkit-transform 2s; */
+	/* transition: opacity 2s, transform 2s; */
+	transition: opacity 4s;
+	-webkit-transition: opacity 4s;
+	/* -webkit-transition-timing-function: cubic-bezier(0.2,1,0.3,1);
 	transition-timing-function: cubic-bezier(0.2,1,0.3,1);
 	-webkit-transition-delay: 0.7s;
-	transition-delay: 0.7s;
+	transition-delay: 0.7s; */
 }
 
 .js .trigger-headline--hidden span {
@@ -349,8 +351,8 @@ a:focus {
 .demo-4 .trigger-headline span {
 	-webkit-transition: opacity 2.3s, -webkit-transform 2.3s;
 	transition: opacity 2.3s, transform 2.3s;
-	-webkit-transition-timing-function: cubic-bezier(0.2,1,0.3,1);
-	transition-timing-function: cubic-bezier(0.2,1,0.3,1);
+	/* -webkit-transition-timing-function: cubic-bezier(0.2,1,0.3,1);
+	transition-timing-function: cubic-bezier(0.2,1,0.3,1); */
 	-webkit-transition-delay: 0.1s;
 	transition-delay: 0.1s;
 }

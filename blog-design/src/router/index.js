@@ -4,6 +4,7 @@ import allArticles from '@/components/allArticles'
 import articleShow from '@/components/articleShow'
 import allCatelogs from '@/components/allCatelogs'
 import catelogShow from '@/components/catelogShow'
+import myInfo from '@/components/myInfo'
 
 Vue.use(Router)
 
@@ -29,6 +30,10 @@ export default new Router({
     {
       path: '/catelog/:id',
       component: catelogShow
+    },
+    {
+      path: '/myInfo',
+      component: myInfo
     }
   ]
 })

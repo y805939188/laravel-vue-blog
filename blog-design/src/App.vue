@@ -2,7 +2,7 @@
   <div id="app">
     <main style="overflow: hidden;position: fixed;">
 			<div class="segmenter" style="background-image: url(../static/img/gakki44.jpg)"></div>
-			<h2 class="trigger-headline trigger-headline--hidden">
+			<h2 class="trigger-headline trigger-headline--hidden animated zoomIn">
 				<span>Hi I'm Shin</span>
 			</h2>
 		</main>
